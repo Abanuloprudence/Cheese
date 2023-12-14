@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    list-style: none;
+}
+/* home */
+.first-section{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+    padding-top: 10px;
+}
+.navbar{
+    height: 60px;
+    z-index: 100;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    list-style: none;
+   padding: 20px 30px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li a .nav-image{
+    position: absolute;
+    width: 200px;
+    border: 2px solid black;
+  
+}
+.nav-image img{
+    position: relative;
+    width: 100%;
+    background: black;
+    border: 15px solid black;
+    border-radius: 50%;
+    top: -40px;
+}
+.background{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.background-image img{
+    width: 700px;
+    padding-top: 12rem;
+}
+.background p{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    padding: 60px 0 20px 0;
+}
+
+.fa-chevron-down{
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+/* About */
+.about{
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+    background: rgb(201, 201, 24);
+    text-align: center;
+    align-items:center ;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+}
+.first{
+    background-image:url(./knives-faded-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+    padding: 30px 0;
+}
+.container p{
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+}
+.fa-x-twitter{
+    font-size: 40px;
+    color: white;
+    padding: 30px 0 5px 0;
+}
+.tweet-account{
+    display: flex;
+    background: rgb(233, 233, 15);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.tweet-account h2{
+    font-size: 18px;
+}
+.account h2,
+.account p{
+    color: white;
+}
+.account p{
+    padding: 0 15px;
+}
+.fa-quote-left,
+.fa-quote-right{
+    font-size: 70px;
+}
+.third{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(34, 27, 7, 0.8), rgba(56, 30, 62, 0.4)), url(./image3.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.third p{
+    position: relative;
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding: 15rem 0;
+}
+.forth-section{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(14, 12, 4, 0.889), rgba(14, 12, 4, 0.889)), url(./image2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.forth-section .container h1{
+    font-size: 30px;
+    word-spacing: 5px;
+}
+.forth-section .container p, .first-table ul li, .second-table ul li{
+    color: white;
+    font-size: 20px;
+}
+.table img{
+    width: 100%;
+    margin: 20px auto;
+}
+.table-text{
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 60px;
+    top: -25.5rem;
+    align-content: center;
+    margin: 0 auto;
+    z-index: 100;
+}
+.first-table ul li, .second-table ul li{
+    line-height: 1.6;
+}
+.first-table ul li{
+    padding-right: 50px;
+    border-right: 2px dotted white;
+}
+.in-touch{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(112, 109, 95, 0.889), rgba(201, 199, 190, 0.889)), url(./image1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.in-touch .second{
+    width: 700px;
+    justify-content: center;
+    margin: auto;
+}
+.in-touch .second p{
+    font-size: 20px;
+    padding: 15px 0;
+}
+.form{
+    width: 100%;
+    padding: 30px 0;
+}
+.form .input50{
+    width: 100%;
+    display: flex;
+}
+
+.message input{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+.form .input50 input, .message input{
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.form .input50 input{
+    margin: 15px 10px;
+}
+.container .link{
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 35px;
+    background: rgb(201, 201, 24);
+    margin: 40px 0;
+    color: white;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(rgba(201, 201, 24, 0.7), rgba(201, 201, 24, 0.7)), url(./image2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+footer .location{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.power img{
+    background: white;
+    padding: 10px 20px;
+}
+footer .footer-p{
+    padding: 30px 0;
+}
+@media (max-width: 768px){
+  
+    .nav-image img{
+        width: 80px;
+        top: -5px;
+        border: 5px solid black;
+    }
+    .navbar ul li{
+       padding: 5px 10px;
+       font-size: 10px;
+    }
+    .background{
+        margin-top: -2rem;
+    }
+    .background-image img{
+        width: 400px;
+        padding-top: 10rem;
+    }
+    .background p{
+        font-size: 20px;
+    }
+    
+    .fa-chevron-down{
+        font-size: 15px;
+        border: 1px solid black;
+    }
+    .third p{
+    font-size: 50px;
+    }
+    .table img{
+       display: none;
+    }
+    .forth-section .container h1{
+        font-size: 20px;
+        word-spacing: 5px;
+    }
+
+    .forth-section .container p, .first-table ul li, .second-table ul li,  .in-touch .second p,  .first-location p, .second-location p{
+        color: white;
+        font-size: 15px;
+        text-align: left;
+    }
+    .table-text{
+        width: 400px;
+        top: 2.5rem;
+    }
+    .first-table ul li, .second-table ul li{
+        line-height: 1.2;
+        text-align: left;
+    }
+    .container{
+        padding: 20px 0;
+    }
+    .in-touch .second{
+        width: 400px;
+    }
+    .first-location{
+        padding-right: 10px;
+    }
+}
